@@ -1,0 +1,26 @@
+$(window).load(function () {
+			$('#form1').parsley().subscribe('parsley:field:validate', function () {
+				if ($('#form1').parsley().isValid()) {
+					$('#form1Submit').prop('disabled', false);
+				} else {
+					$('#form1Submit').prop('disabled', true);
+				}
+			});
+
+			$('#form1Submit').on('click', function () {
+				$('#form1').submit();
+			});
+
+			$('#form2Submit').on('click', function () {
+				$('#form2').submit();
+			});
+
+			$('#form3Submit').on('click', function () {
+				$('#form3').submit();
+			});
+
+			$('#form4Submit').on('click', function () {
+				$('#form4').submit();
+			});
+		});		
+		
