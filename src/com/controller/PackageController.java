@@ -10,7 +10,7 @@ import com.vo.PackageVO;
 
 @Controller
 public class PackageController {	
-		@RequestMapping(value="/subscription.html",method=RequestMethod.GET)
+	@RequestMapping(value="/subscription.html",method=RequestMethod.GET)
 		public ModelAndView index(HttpServletRequest request,HttpServletResponse response){
 			return new ModelAndView("admin/addPackage");
 	}
