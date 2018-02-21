@@ -41,179 +41,6 @@
 					</div>
 				</div>
 				<!-- row -->
-<!-- 				<div class="row">
-					<div class="col-md-6 col-sm-12">
-						<section class="boxs">
-							<div class="boxs-header">
-								<h3 class="custom-font hb-blue">
-									<strong>Disabled</strong> Submit</h3>
-
-							</div>
-							<div class="boxs-body">
-								<p class="text-muted">Submit button will be enabled after completing form.</p>
-								<form name="form1" role="form" id="form1">
-									<div class="form-group col-md-6">
-										<label for="username">User Name : </label>
-										<input type="text" name="username" id="username" class="form-control" data-parsley-trigger="change" data-parsley-range="[4, 20]"
-										 required>
-									</div>
-									<div class="form-group col-md-6">
-										<label for="email">Email Address : </label>
-										<input type="email" name="email" id="email" class="form-control" data-parsley-trigger="change" required>
-									</div>
-									<div class="row">
-										<div class="form-group col-md-4">
-											<label for="password">Password : </label>
-											<input type="password" name="password" id="password" class="form-control" data-parsley-trigger="change" data-parsley-range="[4, 20]"
-											 required>
-										</div>
-										<div class="form-group col-md-4">
-											<label for="passwordConfirm">Retype Password: </label>
-											<input type="password" name="passwordConfirm" id="passwordConfirm" class="form-control" data-parsley-trigger="change" data-parsley-range="[4, 20]"
-											 data-parsley-equalto="#password" required>
-										</div>
-										<div class="form-group col-md-4">
-											<label for="phone">Phone : </label>
-											<input type="text" name="phone" id="phone" class="form-control" placeholder="(XXX) XXXX XXX" data-parsley-trigger="change"
-											 pattern="^[\d\+\-\.\(\)\/\s]*$" required>
-										</div>
-									</div>
-
-									<div class="checkbox">
-										<label class="checkbox checkbox-custom">
-											<input type="checkbox" name="agree" id="agree" data-parsley-trigger="change" required> I agree to the
-											<a href class="text-info">Terms of Service</a>
-										</label>
-									</div>
-								</form>
-							</div>
-							<div class="boxs-footer text-right bg-tr-black lter dvd dvd-top">
-								<button type="submit" class="btn btn-raised btn-primary" id="form1Submit" disabled>Submit</button>
-							</div>
-						</section>
-						<section class="boxs">
-							boxs header
-							<div class="boxs-header">
-								<h3 class="custom-font hb-blush">
-									<strong>On Submit</strong> Validate</h3>
-
-							</div>
-							<div class="boxs-body">
-								<p class="text-muted">all on Submit form Validate</p>
-								<form name="form2" role="form" id="form2" data-parsley-validate>
-									<div class="row">
-										<div class="form-group col-md-6">
-											<label for="name">Your Name: </label>
-											<input type="text" name="name" id="name" class="form-control" required>
-										</div>
-										<div class="form-group col-md-6">
-											<label for="contactemail">Email Address: </label>
-											<input type="email" name="contactemail" id="contactemail" class="form-control">
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="website">Website: </label>
-										<input type="text" name="website" id="website" class="form-control" placeholder="http://" pattern="/(https?:\/\/(?:www\.|(?!www))[^\s\.]+\.[^\s]{2,}|www\.[^\s]+\.[^\s]{2,})/">
-									</div>
-									<div class="form-group">
-										<label for="message">Message: </label>
-										<textarea class="form-control" rows="6" name="message" id="message" placeholder="Type your message" required></textarea>
-									</div>
-								</form>
-							</div>
-							<div class="boxs-footer text-right bg-tr-black lter dvd dvd-top">
-								<button type="submit" class="btn btn-raised btn-danger" id="form2Submit">Submit</button>
-							</div>
-						</section>
-					</div>
- 					<div class="col-md-6 col-sm-12">
-						<section class="boxs">
-							<div class="boxs-header">
-								<h3 class="custom-font hb-cyan">
-									<strong>Basic</strong> Validations</h3>
-							</div>
-							<div class="boxs-body">
-								<form class="form-horizontal" name="form3" role="form" id="form3" data-parsley-validate>
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Required</label>
-										<div class="col-sm-9">
-											<input type="text" class="form-control mb-10" placeholder="Required field" data-parsley-trigger="change" required>
-										</div>
-									</div>
-									<div class="form-group">
-										<div class="col-sm-9 col-xs-offset-3">
-											<select name="f2" class="form-control mb-10" data-parsley-trigger="change" required>
-												<option value="">Select option...</option>
-												<option value="one">one</option>
-												<option value="two">two</option>
-											</select>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox" name="optionsCheckboxes">i Agree</label>
-											</div>
-										</div>
-									</div>
-									<hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Min Length</label>
-										<div class="col-sm-9">
-											<input type="text" class="form-control" placeholder="minlength = 6" data-parsley-trigger="change" minlength="6" required>
-										</div>
-									</div>
-									<hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Max Length</label>
-										<div class="col-sm-9">
-											<input type="text" class="form-control" placeholder="maxlength = 12" data-parsley-trigger="change" maxlength="12" required>
-										</div>
-									</div>
-									<hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Length Range</label>
-										<div class="col-sm-9">
-											<input type="text" class="form-control" placeholder="minlength = 5 & maxlength = 12" data-parsley-trigger="change" data-parsley-length="[6, 12]"
-											 required>
-										</div>
-									</div>
-									<hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Min value</label>
-										<div class="col-sm-9">
-											<input type="number" class="form-control" placeholder="min = 9" min="9" data-parsley-trigger="change" required>
-										</div>
-									</div>
-									<hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Max value</label>
-										<div class="col-sm-9">
-											<input type="number" class="form-control" placeholder="max = 8" max="8" data-parsley-trigger="change" required>
-										</div>
-									</div>
-									<hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Value</label>
-										<div class="col-sm-9">
-											<input type="number" class="form-control" placeholder="min = 6 & max = 20" data-parsley-range="[6,20]" data-parsley-trigger="change"
-											 required>
-										</div>
-									</div>
-									<hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">HEX</label>
-										<div class="col-sm-9">
-											<input type="text" name="fc10" class="form-control" placeholder="#ffffff" pattern="/^#(?:[0-9a-fA-F]{3}){1,2}$/" data-parsley-trigger="change"
-											 required>
-										</div>
-									</div>
-								</form>
-							</div>
-							<div class="boxs-footer text-right bg-tr-black lter dvd dvd-top">
-								<button type="submit" class="btn btn-raised btn-default" id="form3Submit">Submit</button>
-							</div>
-						</section>
-					</div>
-				</div>
-				-->
 				<div class="row">
 					<div class="col-md-12">
 						<section class="boxs">
@@ -222,88 +49,40 @@
 									<strong>Type</strong> Validations</h3>
 							</div>
 							<div class="boxs-body">
-								<f:form class="form-horizontal" action="addPackage.html" name="form4" role="form" id="form4" data-parsley-validate>
+								<f:form class="form-horizontal" action="subscription.html" modelAttribute="data" method="GET">
 									<div class="form-group">
 										<label class="col-sm-3 control-label">Package Title</label>
 										<div class="col-sm-9">
-											<input type="text" class="form-control" placeholder="Enter title of package" data-parsley-trigger="change" required>
+											<f:input type="text" class="form-control" path="packageTitle" placeholder="Enter title of package"  required="required"/>
 										</div>
 									</div>
 									<hr class="line-dashed full-witdh-line" />
 									<div class="form-group">
 										<label class="col-sm-3 control-label">Package Description</label>
 										<div class="col-sm-9">
-											<input type="text" class="form-control" placeholder="Enter description of package" data-parsley-trigger="change" required>
+											<f:input type="text" class="form-control" path="packageDescription" placeholder="Enter description of package" data-parsley-trigger="change" required="required"/>
+											
 										</div>
 									</div>
 									<hr class="line-dashed full-witdh-line" />
 									<div class="form-group">
 										<label class="col-sm-3 control-label">Package Duration</label>
 										<div class="col-sm-9">
-											<select name="f2" class="form-control mb-10" data-parsley-trigger="change" required>
-												<option value="">Select option...</option>
-												<option value="one">one</option>
-												<option value="two">two</option>
-												<option value="two">three</option>
-											</select>
+											<f:input type="text" class="form-control" path="packageDuration" placeholder="Enter description of package" data-parsley-trigger="change" required="required"/>
 										</div>
 									</div>
 									<hr class="line-dashed full-witdh-line" />
 									<div class="form-group">
 										<label class="col-sm-3 control-label">Package Amount</label>
 										<div class="col-sm-9">
-											<input type="text" class="form-control" placeholder="Package amount" data-parsley-trigger="change" required>
+											<f:input type="text" class="form-control" placeholder="Package amount" path="packageAmount" data-parsley-trigger="change" required="required"/>
 										</div>
 									</div>
-									<!-- <hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Alpha Code</label>
-										<div class="col-sm-9">
-											<input type="text" class="form-control" placeholder="Alpha Code" data-parsley-trigger="change" pattern="/^[a-zA-Z]+$/" required>
-										</div>
-									</div>
-									<hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Alpha Numeric</label>
-										<div class="col-sm-9">
-											<input type="text" class="form-control" placeholder="Alpha Numeric" data-parsley-trigger="change" data-parsley-type="alphanum"
-											 required>
-										</div>
-									</div>
-									 --><!-- <hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Date</label>
-										<div class="col-sm-9">
-											<input type="text" class="form-control" placeholder="YYYY-MM-DD" data-parsley-trigger="change" pattern="/[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])$/"
-											 required>
-										</div>
-									</div>
-									<hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Phone Number</label>
-										<div class="col-sm-9">
-											<input type="text" class="form-control" placeholder="(XXX) XXXX XXX" ng-model="fc18" data-parsley-trigger="change" pattern="^[\d\+\-\.\(\)\/\s]*$"
-											 required>
-										</div>
-									</div>
-									<hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">Equal</label>
-										<div class="col-sm-9">
-											<div class="row">
-												<div class="col-md-6">
-													<input type="text" class="form-control" data-parsley-trigger="change" required>
-												</div>
-												<div class="col-md-6">
-													<input type="text" id="fc20" class="form-control" data-parsley-trigger="change" data-parsley-equalto="#fc19" required>
-												</div>
-											</div>
-										</div>
-									</div> -->
-								</f:form>
 									<div class="boxs-footer text-right bg-tr-black lter dvd dvd-top">
 										<button type="submit" class="btn btn-raised btn-default" id="form4Submit">Submit</button>
 									</div>
+								</f:form>
+									
 							</div>
 
 						</section>

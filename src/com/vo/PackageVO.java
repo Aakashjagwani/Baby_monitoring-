@@ -8,19 +8,24 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="packageVO")
+@Table(name="package")
 public class PackageVO {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int packageId;
+	
 	@Column(name="packageTitle")
 	private String packageTitle;
+	
 	@Column(name="packageDescription")
 	private String packageDescription;
-	@Column(name="packageAmount")
-	private float packageAmount;
+	
 	@Column(name="packageDuration")
 	private int packageDuration;
+	
+	@Column(name="packageAmount")
+	private float packageAmount;
+	
 	
 	
 	public int getPackageId() {
@@ -41,17 +46,17 @@ public class PackageVO {
 	public void setPackageDescription(String packageDescription) {
 		this.packageDescription = packageDescription;
 	}
-	public float getPackageAmount() {
-		return packageAmount;
-	}
-	public void setPackageAmount(float packageAmount) {
-		this.packageAmount = packageAmount;
-	}
+	
 	public int getPackageDuration() {
 		return packageDuration;
 	}
 	public void setPackageDuration(int packageDuration) {
 		this.packageDuration = packageDuration;
 	}
-		
+	public float getPackageAmount() {
+		return packageAmount;
+	}
+	public void setPackageAmount(float packageAmount) {
+		this.packageAmount = packageAmount;
+	}	
 }

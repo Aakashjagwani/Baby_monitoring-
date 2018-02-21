@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="loadIndex.html">hello</a> <br>
-<a href="addPackage.html">Subscription</a>
+
 </body>
 </html>
