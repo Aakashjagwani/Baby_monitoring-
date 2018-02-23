@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 
 <title>:: Falcon - Admin Dashboard ::</title>
-<link rel="icon" type="image/ico" href="D:\final_year\admin\adminResources\images\favicon.ico" />
+<link rel="icon" type="image/ico" href="adminResources/images/favicon.ico" />
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- vendor css files -->

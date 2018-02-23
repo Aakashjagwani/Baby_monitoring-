@@ -7,16 +7,19 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>:: Baby Monitoring - Admin Dashboard ::</title>
-	<link rel="icon" type="image/ico" href="assets/images/favicon.ico" />
+	<link rel="icon" type="image/ico" href="adminResources/images/favicon.ico" />
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="adminResources/css/bootstrap.min.css">
+
 	<link rel="stylesheet" href="adminResources/css/animsition.min.css">
 	<link rel="stylesheet" href="adminResources/css/main.css">
+
 </head>
 
 <body id="falcon" class="main_Wrapper">
 <%@taglib prefix="f" uri="http://www.springframework.org/tags/form" %>
+
 	<!--  Application Content -->
 	<div id="wrap" class="animsition">
         <!-- HEADER Content -->
@@ -25,15 +28,17 @@
 		<!--  CONTROLS Content -->
 		<jsp:include page="menu.jsp"></jsp:include>
 		<!-- CONTENT -->
+		
 		<section id="content">
 			<div class="page page-forms-validate">
 				<!-- bradcome -->
 				<div class="bg-light lter b-b wrapper-md mb-10">
 					<div class="row">
-						<div class="col-sm-6 col-xs-12">
+		   				<div class="col-sm-6 col-xs-12">
 							<h1 class="h3 m-0">Add Package Subscription From</h1>
 							<small class="text-muted">Welcome to Baby Monitoring System</small>
 						</div>
+						
 					</div>
 				</div>
 				<!-- row -->
@@ -41,7 +46,13 @@
 					<div class="col-md-12">
 						<section class="boxs">
 							<div class="boxs-body">
-								<f:form class="form-horizontal" action="subscription.html" modelAttribute="data" method="GET">
+								<f:form class="form-horizontal" action="updatePackage1.html" modelAttribute="data" method="POST">
+									<div class="form-group">
+										<label class="col-sm-3 control-label">Package ID</label>
+										<div class="col-sm-9">
+											<f:hidden class="form-control" path="packageId" required="required"/>
+										</div>
+									</div>
 									<div class="form-group">
 										<label class="col-sm-3 control-label">Package Title</label>
 										<div class="col-sm-9">
@@ -88,14 +99,11 @@
 	<!-- Vendor JavaScripts -->
 	<script src="adminResources/js/libscripts.bundle.js"></script>
 	<script src="adminResources/js/vendorscripts.bundle.js"></script>
-
 	<script src="adminResources/js/parsley.min.js"></script>
 	<!--/ vendor javascripts -->
-
 	<!-- Custom JavaScripts  -->
 	<script src="adminResources/js/mainscripts.bundle.js"></script> <!-- Custom Js --> 
 	<!--/ custom javascripts -->
-
 	<!-- Page Specific Scripts  -->
 	<script >
 		$(window).load(function () {

@@ -7,7 +7,7 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>:: Baby Monitoring - Admin Dashboard ::</title>
-	<link rel="icon" type="image/ico" href="assets/images/favicon.ico" />
+	<link rel="icon" type="image/ico" href="adminResources/images/favicon.ico" />
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="adminResources/css/bootstrap.min.css">
@@ -17,6 +17,7 @@
 
 <body id="falcon" class="main_Wrapper">
 <%@taglib prefix="f" uri="http://www.springframework.org/tags/form" %>
+
 	<!--  Application Content -->
 	<div id="wrap" class="animsition">
         <!-- HEADER Content -->
@@ -25,14 +26,15 @@
 		<!--  CONTROLS Content -->
 		<jsp:include page="menu.jsp"></jsp:include>
 		<!-- CONTENT -->
+		
 		<section id="content">
 			<div class="page page-forms-validate">
 				<!-- bradcome -->
 				<div class="bg-light lter b-b wrapper-md mb-10">
 					<div class="row">
 						<div class="col-sm-6 col-xs-12">
-							<h1 class="h3 m-0">Add Package Subscription From</h1>
-							<small class="text-muted">Welcome to Baby Monitoring System</small>
+							<h1 class="h3 m-0">Edit Case Form</h1>
+							<small class="text-muted">Welcome to Baby Monitoring application</small>
 						</div>
 					</div>
 				</div>
@@ -41,41 +43,45 @@
 					<div class="col-md-12">
 						<section class="boxs">
 							<div class="boxs-body">
-								<f:form class="form-horizontal" action="subscription.html" modelAttribute="data" method="GET">
+								<f:form class="form-horizontal" action="updateCase1.html" modelAttribute="data" method="POST">
 									<div class="form-group">
-										<label class="col-sm-3 control-label">Package Title</label>
+										<label class="col-sm-3 control-label">Case ID</label>
 										<div class="col-sm-9">
-											<f:input type="text" class="form-control" path="packageTitle" placeholder="Enter title of package"  required="required"/>
+											<f:hidden class="form-control" path="caseId" required="required"/>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-3 control-label">Case Title</label>
+										<div class="col-sm-9">
+											<f:input type="text" class="form-control" path="caseTitle" placeholder="Enter title of case"  required="required"/>
 										</div>
 									</div>
 									<hr class="line-dashed full-witdh-line" />
 									<div class="form-group">
-										<label class="col-sm-3 control-label">Package Description</label>
+										<label class="col-sm-3 control-label">Case Description</label>
 										<div class="col-sm-9">
-											<f:input type="text" class="form-control" path="packageDescription" placeholder="Enter description of package" data-parsley-trigger="change" required="required"/>
+											<f:input type="text" class="form-control" path="caseDescription" placeholder="Enter description of case" data-parsley-trigger="change" required="required"/>
 										</div>
 									</div>
 									<hr class="line-dashed full-witdh-line" />
 									<div class="form-group">
-										<label class="col-sm-3 control-label">Package Duration</label>
+										<label class="col-sm-3 control-label">File Name</label>
 										<div class="col-sm-9">
-											<f:input type="text" class="form-control" path="packageDuration" placeholder="Enter description of package" data-parsley-trigger="change" required="required"/>
+											<f:input type="text" class="form-control" path="fileName" placeholder="Enter File Name" data-parsley-trigger="change" required="required"/>
 										</div>
 									</div>
 									<hr class="line-dashed full-witdh-line" />
 									<div class="form-group">
-										<label class="col-sm-3 control-label">Package Amount</label>
+										<label class="col-sm-3 control-label">File Path</label>
 										<div class="col-sm-9">
-											<f:input type="text" class="form-control" placeholder="Package amount" path="packageAmount" data-parsley-trigger="change" required="required"/>
+											<f:input type="text" class="form-control" placeholder="File Path" path="filePath" data-parsley-trigger="change" required="required"/>
 										</div>
 									</div>
 									<div class="boxs-footer text-right bg-tr-black lter dvd dvd-top">
 										<button type="submit" class="btn btn-raised btn-default" id="form4Submit">Submit</button>
 									</div>
 								</f:form>
-									
 							</div>
-
 						</section>
 					</div>
 				</div>

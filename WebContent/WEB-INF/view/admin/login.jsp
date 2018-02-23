@@ -7,7 +7,7 @@
   <meta charset="utf-8" />
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <title>:: Falcon - Admin Dashboard ::</title>
+  <title>Admin Login</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="adminResources/css/bootstrap.min.css">
@@ -37,8 +37,6 @@
                     </a>
                   </div>
                 </div>
-                <h3 class="mt-0">Falcon</h3>
-                <p class="help-block">Or Be Classical</p>
                 <div class="content">
                   <div class="form-group">
                     <input type="email" class="form-control underline-input" placeholder="Enter Your Email">

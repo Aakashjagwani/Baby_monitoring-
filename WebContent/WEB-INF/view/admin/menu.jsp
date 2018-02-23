@@ -13,30 +13,8 @@
                                                 <span>Dashboard</span>
                                             </a>
                                         </li>
-                                       <!--  <li>
-                                            <a role="button" tabindex="0">
-                                                <i class="fa fa-envelope"></i>
-                                                <span>Admin Login</span>
-                                            </a>
-                                            <ul>
-                                                <li>
-                                                    <a href="mail-inbox.html">
-                                                        <i class="fa fa-angle-right"></i> Inbox
-                                                        <span class="label label-success">new</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="mail-compose.html">
-                                                        <i class="fa fa-angle-right"></i> Compose Mail</a>
-                                                </li>
-                                                <li>
-                                                    <a href="mail-single.html">
-                                                        <i class="fa fa-angle-right"></i> Single Mail</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        --> <li>
-                                            <a href="material.html">
+                                       <li>
+                                            <a href="login.html">
                                                 <i class="fa fa-arrow-right"></i>
                                                 <span>Admin Login</span>
                                             </a>
@@ -48,11 +26,11 @@
                                             </a>
                                             <ul>
                                                 <li>
-                                                    <a href="form-validate.html">
+                                                    <a href="addPackage.html">
                                                         <i class="fa fa-angle-right"></i>Add Package</a>
                                                 </li>
                                                 <li>
-                                                    <a href="form-upload.html">
+                                                    <a href="viewPackage.html">
                                                         <i class="fa fa-angle-right"></i>View Package</a>
                                                 </li>
                                             </ul>
@@ -97,11 +75,11 @@
                                             </a>
                                             <ul>
                                                 <li>
-                                                    <a href="tables-bootstrap.html">
+                                                    <a href="addCase.html">
                                                         <i class="fa fa-angle-right"></i>Add Case</a>
                                                 </li>
                                                 <li>
-                                                    <a href="tables-static.html">
+                                                    <a href="viewCase.html">
                                                         <i class="fa fa-angle-right"></i>View Case</a>
                                                 </li>
                                         </li>
