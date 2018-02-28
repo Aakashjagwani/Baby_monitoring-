@@ -1,0 +1,26 @@
+/*---bootstap.CSS ---*/
+@import url("bootstrap.min.css");
+/*---mega menu .CSS ---*/
+@import url("hover-dropdown-menu.css");
+ /*---fancybox.CSS ---*/
+@import url("jquery.fancybox.css");
+/*---acordian.CSS ---*/
+@import url("jquery-ui.css");
+/*---owl-carousal.CSS ---*/
+@import url("owl.carousel.css");
+@import url("owl.theme.default.css");
+/*---fontawesome.CSS  font ---*/
+@import url("font-awesome.min.css");
+/* theme  linia icon CSS*/
+@import url("iconfont.css");
+/* theme effect hover CSS*/
+@import url("themeHover.css");
+
+/*---STYLE.CSS inluad style---*/
+@import url("style.css");
+
+/*---responsive.CSS inluad style---*/
+@import url("responsive.css");
+
+/*---color.CSS inluad color---*/
+@import url("color.css");

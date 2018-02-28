@@ -10,7 +10,7 @@
  	<url-pattern>*.html</url-pattern>
  </servlet-mapping>
  
- <!-- <listener>
+ <listener>
    <listener-class>
     org.springframework.web.context.ContextLoaderListener
    </listener-class>
@@ -30,5 +30,5 @@
     <filter-name>springSecurityFilterChain</filter-name>
     <url-pattern>/*</url-pattern>
  </filter-mapping> 
- -->
+
 </web-app>
