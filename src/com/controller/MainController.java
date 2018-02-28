@@ -16,5 +16,10 @@ public class MainController
 	{
 		return new ModelAndView("admin/index");
 	}
+	@RequestMapping(value="/userIndex.html",method=RequestMethod.GET)
+	public ModelAndView index1()
+	{
+		return new ModelAndView("user/index");
+	}
 }
 	
