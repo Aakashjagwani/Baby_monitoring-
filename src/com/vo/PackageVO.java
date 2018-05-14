@@ -10,6 +10,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="package")
 public class PackageVO {
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int packageId;

@@ -13,5 +13,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="src" path="/Spring"/>
+	<classpathentry kind="lib" path="K:/Classes/Advance Workspace/Baby_Monitoring/WebContent/WEB-INF/lib/spring-security-core-4.0.1.RELEASE.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

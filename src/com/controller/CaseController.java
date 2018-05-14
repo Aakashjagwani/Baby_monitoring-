@@ -1,5 +1,7 @@
 package com.controller;
 
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
@@ -11,6 +13,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.dao.CaseDAO;
@@ -25,14 +29,41 @@ public class CaseController {
 		public ModelAndView addCase(HttpServletRequest request,HttpServletResponse response){
 			return new ModelAndView("admin/addCase","data",new CaseVO());
 	}
-	@RequestMapping(value="/newCase.html",method=RequestMethod.GET)
-		public ModelAndView newCase(@ModelAttribute CaseVO v,HttpServletRequest request,HttpServletResponse response){
+	@RequestMapping(value="/newCase.html",method=RequestMethod.POST)
+		public ModelAndView newCase(@ModelAttribute CaseVO v,HttpServletRequest request,HttpServletResponse response,@RequestParam("file") List<CommonsMultipartFile> file ){
+			HttpSession session=request.getSession();
+			
+			for(int j=0;j<file.size();j++)
+			{
+			String path=session.getServletContext().getRealPath("/");
+			
+			String pathFInal=path+"\\doc";
+			System.out.println("path---------------------"+pathFInal);
+			
+			
+	        String filename=file.get(j).getOriginalFilename();  
+	        System.out.println(filename);
+	        System.out.println("file name........!!!!"+filename);
+	        
+	        System.out.println(path+" "+filename);  
+	        try{  
+	        byte barr[]=file.get(j).getBytes();  
+	          
+	        BufferedOutputStream bout=new BufferedOutputStream(  
+	                 new FileOutputStream(pathFInal+"\\"+filename));  
+	        bout.write(barr);  
+	        bout.flush();  
+	        bout.close();  
+	          
+	        }catch(Exception e){
+	        	System.out.println(e);
+	        	}
+	        v.setFileName(filename);
+	        v.setFilePath(path);
+			}
 			this.d.addCase(v);
-			HttpSession s=request.getSession();
-			s.setAttribute("caseTitle",v.getCaseTitle());
-			s.setAttribute("caseDescription",v.getCaseDescription());
-			s.setAttribute("fileName",v.getFileName());
-			s.setAttribute("filePath",v.getFilePath());
+			session.setAttribute("caseTitle",v.getCaseTitle());
+			session.setAttribute("caseDescription",v.getCaseDescription());
 			return new ModelAndView("redirect:addCase.html");
 	}
 	@RequestMapping(value="/viewCase.html",method=RequestMethod.GET)

@@ -16,19 +16,20 @@
                                 <h4 class="title colorW marB20">about us</h4>
                                 <ul class="text">
                                     <li> 
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's;
+                                        The Best Feeling a child can have is when there is someone 
+                                    	who can capture the smallest actions of him. 
                                     </li>
                                     <li> 
                                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                        <span>hello@gmail.com</span>
+                                        <span>aakashjagwani09@gmail.com</span>
                                     </li>
                                     <li> 
                                         <i class="fa fa-phone" aria-hidden="true"></i>
-                                        <span>P: 3333 222 1111</span>
+                                        <span>P: 8758 137 760</span>
                                     </li>
                                     <li> 
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        <span> 99 Barnard St - Suite 111 United States - GA 22222 </span>
+                                        <span> 241 Maharathi Society Sardarnagar - Ahmedabad Gujarat India 382475 </span>
                                     </li>
                                 </ul>
                             </div>
@@ -37,11 +38,11 @@
                             <div class="foot-sec marB30">
                                 <h4 class="title colorW marB20">Useful Links</h4>
                                 <ul class="pad0">
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Baby House Blog</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Baby House Gallery</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Baby House Service</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Baby House Site Map</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Baby House About us</a></li>
+                                    <li><a href="showResult.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Baby Fallen Service</a></li>
+                                    <li><a href="showImage.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Baby Expression Detection</a></li>
+                                    <li><a href="addFeedbackUser.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Baby House Feedback Service</a></li>
+                                    <li><a href="subscriptionUser.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Baby House Subscription Link</a></li>
+                                    <li><a href="about.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Baby House About us</a></li>
                                     <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Baby House Contact us</a></li>
                                 </ul>
                             </div>
@@ -50,16 +51,12 @@
                             <div class="foot-sec foot-img-box marB30">
                                 <h4 class="title colorW marB20">Recent Work</h4>
                                 <ul class="pad0">
-                                    <li><a href="#"><img src="assets/img/all/foot-001%20(1).jpg" alt=""/></a></li>
-                                    <li><a href="#"><img src="assets/img/all/foot-001%20(2).jpg" alt=""/></a></li>
-                                    <li><a href="#"><img src="assets/img/all/foot-001%20(3).jpg" alt=""/></a></li>
-                                    <li><a href="#"><img src="assets/img/all/foot-001%20(4).jpg" alt=""/></a></li>
-                                    <li><a href="#"><img src="assets/img/all/foot-001%20(5).jpg" alt=""/></a></li>
-                                    <li><a href="#"><img src="assets/img/all/foot-001%20(6).jpg" alt=""/></a></li>
-                                    <li><a href="#"><img src="assets/img/all/foot-001%20(7).jpg" alt=""/></a></li>
-                                    <li><a href="#"><img src="assets/img/all/foot-001%20(8).jpg" alt=""/></a></li>
-                                </ul>
-                                <p><a href="#"><i class="fa fa-angle-double-right marR10" aria-hidden="true"></i>View more</a></p>
+                                    <li><a href="#"><img src="userResources/images/Angry-Little-Baby.jpg_detected.jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="userResources/images/cry.jpg_detected.jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="userResources/images/sixth.mp4_detected.jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="userResources/images/ninth.mp4_detected.jpg" alt=""/></a></li>
+                                    <li><a href="#"><img src="userResources/images/Cute-Happy-Baby-Picture.jpg_detected.jpg" alt=""/></a></li>
+                                    </ul>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12">
@@ -79,15 +76,6 @@
                                     <a href="#" class="square-box default-btn"><span><i class="fa fa-pinterest" aria-hidden="true"></i></span></a>
                                 </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bottom-footer padTB20 bagB">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-                            <p>Copyright 2017  All Right Reserved <a href="http://www.itgeeksin.com/"><span class="theme-color">IT GEEKS</span></a></p>
                         </div>
                     </div>
                 </div>

@@ -25,6 +25,7 @@ public class LoginVO {
 	private String role;
 	
 	@Column(name="enable")
+	
 	private String enable;
 
 	public int getId() {

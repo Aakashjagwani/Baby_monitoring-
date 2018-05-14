@@ -5,7 +5,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>:: Falcon - Admin Dashboard ::</title>
+<title>:: Baby Monitoring System::</title>
 <link rel="icon" type="image/ico" href="adminResources/images/favicon.ico" />
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +30,7 @@
                     <div class="row">
                         <div class="col-sm-6 col-xs-12">
                             <h1 class="h3 m-0">Dashboard</h1>
-                            <small class="text-muted">Welcome to Falcon application</small>
+                            <small class="text-muted">Welcome to Baby Monitoring System</small>
                         </div>
                     </div>
                 </div>

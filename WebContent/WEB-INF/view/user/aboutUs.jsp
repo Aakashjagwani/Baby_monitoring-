@@ -8,10 +8,8 @@
                                 <i class="fa fa-bus" aria-hidden="true"></i>
                             </div>
                             <div class="service-text">
-                                <h4 class="title"><a href="service.html">BUS SERVICE</a></h4>
-                                <p>Class aptent taciti estied 
-                                    aliquam ellus pers piciat unde 
-                                    omnis dolorem dantium.
+                                <h4 class="title"><a href="#">BUS SERVICE</a></h4>
+                                <p>Pick and drop service is provided for the babies so that parents feel safe.
                                 </p>
                             </div>
                         </div>
@@ -22,10 +20,9 @@
                                 <i class="fa fa-clock-o" aria-hidden="true"></i>
                             </div>
                             <div class="service-text">
-                                <h4 class="title"><a href="service.html">MANY SPORTS</a></h4>
-                                <p>Class aptent taciti estied 
-                                    aliquam ellus pers piciat unde 
-                                    omnis dolorem dantium.
+                                <h4 class="title"><a href="#">MANY SPORTS</a></h4>
+                                <p>
+                                Sports activities that help babies for their overall development.
                                 </p>
                             </div>
                         </div>
@@ -36,10 +33,9 @@
                                 <i class="fa fa-headphones" aria-hidden="true"></i>
                             </div>
                             <div class="service-text">
-                                <h4 class="title"><a href="service.html">Interactive Elements</a></h4>
-                                <p>Class aptent taciti estied 
-                                    aliquam ellus pers piciat unde 
-                                    omnis dolorem dantium.
+                                <h4 class="title"><a href="#">Interactive Elements</a></h4>
+                                <p>
+                                Dance,music and many such activities are provided for the babies to grow.
                                 </p>
                             </div>
                         </div>
@@ -50,10 +46,9 @@
                                 <i class="fa fa-cutlery" aria-hidden="true"></i>
                             </div>
                             <div class="service-text">
-                                <h4 class="title"><a href="service.html">CUSTOM FOOD</a></h4>
-                                <p>Class aptent taciti estied 
-                                    aliquam ellus pers piciat unde 
-                                    omnis dolorem dantium.
+                                <h4 class="title"><a href="#">FOOD</a></h4>
+                                <p>
+                                Hygenic Food will be provided and babies will be served different food everday.
                                 </p>
                             </div>
                         </div>
@@ -65,9 +60,7 @@
                             </div>
                             <div class="service-text">
                                 <h4 class="title"><a href="service.html">MUSIC LESSON</a></h4>
-                                <p>Class aptent taciti estied 
-                                    aliquam ellus pers piciat unde 
-                                    omnis dolorem dantium.
+                                <p>Babies will be taught playing different instrument and will compete with each other.
                                 </p>
                             </div>
                         </div>
@@ -78,10 +71,8 @@
                                 <i class="fa fa-language" aria-hidden="true"></i>
                             </div>
                             <div class="service-text text-left">
-                                <h4 class="title"><a href="service.html">LANGUAGES</a></h4>
-                                <p>Class aptent taciti estied 
-                                    aliquam ellus pers piciat unde 
-                                    omnis dolorem dantium.
+                                <h4 class="title"><a href="#">LANGUAGES</a></h4>
+                                <p>Languages like English and Hindi will be taught by the teachers.
                                 </p>
                             </div>
                         </div>
@@ -118,17 +109,15 @@
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="about-us marB0">
                             <h3 class="marB10">Why Choose Us</h3>
-                            <p class="text-left">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-                                ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
-                                auctor a ornare odio. sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                                Morbi accumsan ipsum velit. Sed non  mauris vitae erat.
+                            <p class="text-left">Baby Monitoring System is a project in 
+                            	which user can monitor their babies through the camera or video.
+                            	The User can get alert through mail if their baby has fallen somewhere 
+                            	or if it is crying or is angry.
                             </p>
-                            <p class="text-left marB30">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                                himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum
-                                sit amet a augue. Sed non neque elit. Ac urna eu felis dapibus condimentum
-                                sed non neque elit.
+                            <p class="text-left marB30">To help parents the product can detect babies who have fallen somewhere , 
+                            	are crying and if they are angry. To automate the identification of child`s 
+                            	status from a visual monitoring device. The portal is easy to use and access. 
                             </p>
-                            <a href="about-us.html" class="itg-button">Read more</a>
                         </div>
                     </div>
                 </div>

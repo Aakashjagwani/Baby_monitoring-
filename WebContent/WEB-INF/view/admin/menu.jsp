@@ -13,12 +13,6 @@
                                                 <span>Dashboard</span>
                                             </a>
                                         </li>
-                                       <li>
-                                            <a href="login.html">
-                                                <i class="fa fa-arrow-right"></i>
-                                                <span>Admin Login</span>
-                                            </a>
-                                        </li>
                                         <li>
                                             <a role="button" tabindex="0">
                                                 <i class="fa fa-list"></i>
@@ -38,16 +32,12 @@
                                         <li>
                                             <a role="button" tabindex="0">
                                                 <i class="fa fa-leaf"></i>
-                                                <span>Manage Complaint</span>
+                                                <span>Manage Complain</span>
                                             </a>
                                             <ul>
                                                 <li>
-                                                    <a href="ui-general.html">
-                                                        <i class="fa fa-angle-right"></i>Add Complaint</a>
-                                                </li>
-                                                <li>
-                                                    <a href="ui-navigation.html">
-                                                        <i class="fa fa-angle-right"></i>View Package</a>
+                                                    <a href="viewComplain.html">
+                                                        <i class="fa fa-angle-right"></i>View Complain</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -58,11 +48,7 @@
                                             </a>
                                             <ul>
                                                 <li>
-                                                    <a href="layout-boxed.html">
-                                                        <i class="fa fa-angle-right"></i>Add Feedback</a>
-                                                </li>
-                                                <li>
-                                                    <a href="layout-fullwidth.html">
+                                                    <a href="viewFeedback.html">
                                                         <i class="fa fa-angle-right"></i>View Feedback
                                                     </a>
                                                 </li>

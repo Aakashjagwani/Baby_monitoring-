@@ -3,7 +3,7 @@
                 <!-- Branding -->
                 <div class="branding">
                     <a class="brand" href="index.html">
-                        <span>Falcon</span>
+                        <span>Baby Monitoring </span>
                     </a>
                     <a role="button" tabindex="0" class="offcanvas-toggle visible-xs-inline">
                         <i class="fa fa-bars"></i>
@@ -20,68 +20,47 @@
                     </li>
                     <li class="dropdown leftmenu-collapse">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-language"></i>
-                        </a>
-                        <div class="dropdown-menu pull-left panel-default pt-0 pb-0" role="menu">
-                            <ul class="list-group mb-0">
-                                <li class="list-group-item">
-                                    <a href="javascript:void(0);" class="p-0 m-0" >English</a>
-                                </li>
-                                <li class="list-group-item">
-                                    <a href="javascript:void(0);" class="p-0 m-0" >Spanish</a>
-                                </li>
-                                <li class="list-group-item">
-                                    <a href="javascript:void(0);" class="p-0 m-0" >Chinese</a>
-                                </li>
-                                <li class="list-group-item">
-                                    <a href="javascript:void(0);" class="p-0 m-0" >Arabic</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="dropdown leftmenu-collapse">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-plus mr-5"></i>New
+                            <i class="fa fa-plus mr-5"></i>New 
                         </a>
                         <div class="dropdown-menu pull-left panel panel-default" role="menu">
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    <a role="button" class="media">
+                                    <a role="button" class="media" href="addPackage.html">
                                         <span class="pull-left media-object">
                                             <i class="fa fa-briefcase"></i>
                                         </span>
                                         <div class="media-body">
-                                            <span class="block">New Campaign</span>
+                                            <span class="block">Add Package</span>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a role="button" class="media">
+                                    <a role="button" class="media" href="viewFeedback.html">
                                         <span class="pull-left media-object">
                                             <i class="fa fa-area-chart"></i>
                                         </span>
                                         <div class="media-body">
-                                            <span class="block">Generate Report</span>
+                                            <span class="block">View Feedback</span>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a role="button" class="media">
+                                    <a role="button" class="media" href="viewComplain.html">
                                         <span class="pull-left media-object">
                                             <i class="fa fa-user"></i>
                                         </span>
                                         <div class="media-body">
-                                            <span class="block">Add New User</span>
+                                            <span class="block">View Complain</span>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a role="button" class="media">
+                                    <a role="button" class="media" href="addCase.html">
                                         <span class="pull-left media-object">
                                             <i class="fa fa-file-text"></i>
                                         </span>
                                         <div class="media-body">
-                                            <span class="block">Create Page</span>
+                                            <span class="block">Add Case</span>
                                         </div>
                                     </a>
                                 </li>
@@ -91,57 +70,12 @@
                 </ul>
                 <!-- Left-side navigation end -->
                 <div class="search" id="main-search">
-                    <input type="text" class="form-control underline-input" placeholder="Explore Falcon...">
+                    <input type="text" class="form-control underline-input" placeholder="Explore Portal...">
                 </div>
                 <!-- Search end -->
 
                 <!-- Right-side navigation -->
                 <ul class="nav-right pull-right list-inline">
-                    <li class="dropdown users">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-th"></i>
-                        </a>
-                        <div class="dropdown-menu pull-right panel panel-default" role="menu">
-                            <ul class="app-sortcut">
-                                <li>
-                                    <a href="#" class="connection-item">
-                                        <i class="fa fa-umbrella"></i>
-                                        <span class="block">Weather</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="ui-widgets.html" class="connection-item">
-                                        <i class="fa fa-object-ungroup"></i>
-                                        <span class="block">Widget</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="calendar.html" class="connection-item">
-                                        <i class="fa fa-calendar-check-o"></i>
-                                        <span class="block">calendar</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="maps-google.html" class="connection-item">
-                                        <i class="fa fa-map-o"></i>
-                                        <span class="block">map</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="chat.html" class="connection-item">
-                                        <i class="fa fa-comments-o"></i>
-                                        <span class="block">chat</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="connection-item">
-                                        <i class="fa fa-book"></i>
-                                        <span class="block">contact</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
                     <li class="dropdown messages">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                             <i class="fa fa-envelope"></i>
@@ -281,15 +215,10 @@
                                     <i class="fa fa-lock"></i>Lock</a>
                             </li>
                             <li>
-                                <a href="login.html" role="button" tabindex="0">
+                                <a href="spring_logout" role="button" tabindex="0">
                                     <i class="fa fa-sign-out"></i>Logout</a>
                             </li>
                         </ul>
-                    </li>
-                    <li class="toggle-right-leftmenu">
-                        <a role="button" tabindex="0">
-                            <i class="fa fa-align-left"></i>
-                        </a>
                     </li>
                 </ul>
                 <!-- Right-side navigation end -->

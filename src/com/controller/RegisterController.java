@@ -30,6 +30,7 @@ public class RegisterController {
 	}
 	@RequestMapping(value="/newUser.html",method=RequestMethod.GET)
 	public ModelAndView newUser(@ModelAttribute RegistrationVO v,@ModelAttribute LoginVO v1,HttpServletRequest request,HttpServletResponse response){
+		
 		v1.setUsername(v.getLoginVO().getUsername());
 		v1.setPassword(v.getLoginVO().getPassword());
 		v1.setRole("ROLE_USER");

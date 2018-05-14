@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title></title>
 </head>
 <body>
 		<div class="preloader">
@@ -23,15 +23,15 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <ul>
-                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>hello@gmail.com</a></li>
-                                <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>3333 222 1111</a></li>
+                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>aakashjagwani09@gmail.com</a></li>
+                                <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>8758137760</a></li>
                             </ul>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12 text-right small-left">
                             <ul>
-                                <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-                                <li><a href="register.html"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
-                                <li><a href="#" class="cart-box"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+                                <!-- <li><a href="logout.html" ><i class="fa fa-sign-out" aria-hidden="true"></i>Welcome</a></li>
+                                 -->
+                                 <li><a href="spring_logout" ><i class="fa fa-sign-out" aria-hidden="true"></i>Logout</a></li>
                             </ul>
                         </div>
                     </div>
@@ -67,38 +67,25 @@
                                                 <li>
                                                     <a href="#">pages<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                                     <ul class="dropdown-menu">
-                                                        <li><a href="about-us.html">about us</a></li>
-                                                        <li><a href="staff-detail.html">teacher detail</a></li>
-                                                        <li><a href="gallery.html">our gallery</a></li>
-                                                        <li><a href="error.html">error 404</a></li>
-                                                        <li><a href="register.html">register</a></li>
-                                                        <li><a href="comming-soon.html">coming soon</a></li>
+                                                        <li><a href="about.html">About Us</a></li>
+                                                        <li><a href="register.html">Register</a></li>
+                                                        <li><a href="subscriptionUser.html">Subscription Package</a></li>
+                                                        <li><a href="addComplainUser.html">Add Complaint</a></li>
+                                                        <li><a href="addFeedbackUser.html">Add Feedback</a></li>
                                                     </ul>
                                                 </li>
+                                                 <%
+												Integer s=(Integer) session.getAttribute("loginId");
+												session.setAttribute("s",s);
+											
+											   	 %>
                                                 <li>
                                                     <a href="#">service<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="service.html">Services Main</a></li>
-                                                        <li><a href="service-detail.html">service details</a></li>
+                                                    <ul class="dropdown-menu">	 
+                                                        <li><a href="showResult.html">Fall Down Service</a></li>
+                                                        <li><a href="showImage.html">Expression Detection Service</a></li>
                                                     </ul>
                                                 </li>
-                                                <li>
-                                                    <a href="#">blog<i class="fa fa-angle-down" aria-hidden="true"></i></a> 
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="blog-style-1.html">Blogs Style 1</a></li>
-                                                        <li><a href="blog-style-2.html">Blogs Style 2</a></li>
-                                                        <li><a href="blog-style-3.html">Blogs Style 3</a></li>
-                                                        <li class="left-side">
-                                                            <a href="#" class="hidden-xs">Single Blog <i class="fa fa-angle-right hidden-xs" aria-hidden="true"></i></a>
-                                                            <a href="#" class="hidden-sm hidden-lg hidden-md">Single Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                                            <ul class="dropdown-menu">
-                                                                <li><a href="blog-single-sidebar.html">With Sidebar</a></li>
-                                                                <li><a href="blog-single-full-width.html">Without Sidebar</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="faq.html">faqs</a></li>
                                                 <li><a href="contact.html">contact</a></li>
                                             </ul>
                                         </div>

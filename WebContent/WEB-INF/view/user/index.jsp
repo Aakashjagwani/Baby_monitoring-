@@ -39,11 +39,9 @@
                                 <div class="col-md-8 col-sm-8 col-xs-10 col-md-offset-2 col-sm-offset-2 col-xs-offset-1 text-center">
                                     <h1>Baby House</h1>
                                     <h2>Care School for baby</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                        has been the industry's standard dummy text everwhen an unknown 
-                                        a galley of type an a type specimen 
+                                    <p>The Best Feeling a child can have is when there is someone 
+                                    	who can capture the smallest actions of him. 
                                     </p>
-                                    <a href="register.html" class="itg-button">Register</a>
                                 </div>
                             </div>
                         </div>
@@ -60,11 +58,9 @@
                                 <div class="col-md-8 col-sm-8 col-xs-10 col-md-offset-2 col-sm-offset-2 col-xs-offset-1 text-center">
                                     <h1>Baby House</h1>
                                     <h2>Care School for baby</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                        has been the industry's standard dummy text everwhen an unknown 
-                                        a galley of type an a type specimen 
-                                    </p>
-                                    <a href="register.html" class="itg-button">register</a>
+                                    <p>The Best Feeling a child can have is when there is someone 
+                                    	who can capture the smallest actions of him. 
+                                   </p>
                                 </div>
                             </div>
                         </div>
@@ -81,11 +77,9 @@
                                 <div class="col-md-8 col-sm-8 col-xs-10 col-md-offset-2 col-sm-offset-2 col-xs-offset-1 text-center">
                                     <h1>Baby House</h1>
                                     <h2>Care School for baby</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                        has been the industry's standard dummy text everwhen an unknown 
-                                        a galley of type an a type specimen 
+                                    <p>The Best Feeling a child can have is when there is someone 
+                                    	who can capture the smallest actions of him. 
                                     </p>
-                                    <a href="register.html" class="itg-button">register</a>
                                 </div>
                             </div>
                         </div>
@@ -95,6 +89,11 @@
         </section>
         <!--//================Slider end==============//-->
         <div class="clear"></div>
+        
+        <%
+												Integer s=(Integer) session.getAttribute("loginId");
+												session.setAttribute("s",s);
+		%>	 
         <!--//================services starts==============//-->
         <section class="padT50 padB20 theme-border-bottom">
             <div class="container">
@@ -114,7 +113,7 @@
                         </div>
                         <div class="service-text">
                             <h4>Our Email</h4>
-                            <p>info@itgeeks.in</p>
+                            <p>aakashjagwani09@gmail.com</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 padB30">
@@ -122,8 +121,8 @@
                             <i class="fa fa-bus" aria-hidden="true"></i>
                         </div>
                         <div class="service-text">
-                            <h4>Bust Timinng</h4>
-                            <p>8.00 am (for  kids only)</p>
+                            <h4>Bus Timing</h4>
+                            <p>8.00 am</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12 padB30">
@@ -132,7 +131,7 @@
                         </div>
                         <div class="service-text">
                             <h4>Phone Number</h4>
-                            <p>+91 9039840784</p>
+                            <p>+91 8758137760</p>
                         </div>
                     </div>
                 </div>
@@ -156,8 +155,9 @@
                             <div class="col-md-4 col-sm-6 col-xs-10  col-md-offset-4 col-sm-offset-3 col-xs-offset-1 heading-box text-center">
                                 <h3 class="colorW marB10">Our Facilities</h3>
                                 <span class="colorW marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
-                                <p class="colorW marB10">Lorem ipsum dolor sit ametconsectetuer adipiscing
-                                    elit, sed diam nonummy nibh
+                                <p class="colorW marB10">
+                                The Best Feeling a child can have is when there is someone
+                                who can capture the smallest actions of him. 
                                 </p>
                             </div>
                         </div>
@@ -170,32 +170,33 @@
                             <div id="facilities-slider" class="owl-carousel owl-theme slider positionR marB30">
                                 <div class="item">
                                     <figure>
-                                        <img src="assets/img/slider/facilities-1.jpg" alt=""/>
+                                        <img src="userResources/images/facilities-1.jpg" alt=""/>
                                     </figure>
                                 </div>
                                 <div class="item">
                                     <figure>
-                                        <img src="assets/img/slider/facilities-2.jpg" alt=""/>
+                                        <img src="userResources/images/facilities-2.jpg" alt=""/>
                                     </figure>
                                 </div>
                                 <div class="item">
                                     <figure>
-                                        <img src="assets/img/slider/facilities-3.jpg" alt=""/>
+                                        <img src="userResources/images/facilities-3.jpg" alt=""/>
                                     </figure>
                                 </div>
                                 <div class="item">
                                     <figure>
-                                        <img src="assets/img/slider/facilities-4.jpg" alt=""/>
+                                        <img src="userResources/images/facilities-4.jpg" alt=""/>
                                     </figure>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="facilities-details">
-                                <h3 class="colorW text-left marB10">Release of Letraset sheets containing</h3>
-                                <p class="colorW text-left marB30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-                                    nonummy nibh euismod.  Praesent interdum est gravida vehicula est
-                                    node maecenas loareet morbi.
+                                <h3 class="colorW text-left marB10">Facilities our product will provide</h3>
+                                <p class="colorW text-left marB30">
+                                Our product will provide the basic functionality of baby monitoring so that 
+                                busy parents can monitor their child while they work so thay wont 
+                                have to remain the whole day at home.
                                 </p>
                                 <div class="row hidden-sm">
                                     <div class="col-md-6 col-sm-6 col-xs-12">
@@ -204,8 +205,8 @@
                                                 <i class="fa fa-futbol-o" aria-hidden="true"></i>
                                             </div>
                                             <div class="service-text text-left">
-                                                <h4 class="title"><a href="service.html">MANY SPORTS</a></h4>
-                                                <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                                <h4 class="title"><a href="#">MANY SPORTS</a></h4>
+                                                <p>Sports activities that help babies for their overall development.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -215,8 +216,9 @@
                                                 <i class="fa fa-paint-brush" aria-hidden="true"></i>
                                             </div>
                                             <div class="service-text text-left">
-                                                <h4 class="title"><a href="service.html">Painting</a></h4>
-                                                <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                                <h4 class="title"><a href="#">Painting</a></h4>
+                                                <p>Painting during the school hours to help your child learn Art.   
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -226,8 +228,8 @@
                                                 <i class="fa fa-book" aria-hidden="true"></i>
                                             </div>
                                             <div class="service-text">
-                                                <h4 class="title"><a href="service.html">LIBRARY</a></h4>
-                                                <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                                <h4 class="title"><a href="#">LIBRARY</a></h4>
+                                                <p>There is a Library of New and Good books for childs</p>
                                             </div>
                                         </div>
                                     </div>
@@ -237,8 +239,8 @@
                                                 <i class="fa fa-music" aria-hidden="true"></i>
                                             </div>
                                             <div class="service-text text-left">
-                                                <h4 class="title"><a href="service.html">MUSIC LESSON</a></h4>
-                                                <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                                <h4 class="title"><a href="#">MUSIC LESSON</a></h4>
+                                                <p>There are Also music class to help child learn basics of Music.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -253,8 +255,8 @@
                                         <i class="fa fa-futbol-o" aria-hidden="true"></i>
                                     </div>
                                     <div class="service-text text-left">
-                                        <h4><a href="service.html">MANY SPORTS</a></h4>
-                                        <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                        <h4><a href="#">MANY SPORTS</a></h4>
+                         					<p>Sports activities that help babies for their overall development.</p>
                                     </div>
                                 </div>
                             </div>
@@ -264,8 +266,8 @@
                                         <i class="fa fa-paint-brush" aria-hidden="true"></i>
                                     </div>
                                     <div class="service-text text-left">
-                                        <h4><a href="service.html">Painting</a></h4>
-                                        <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                        <h4><a href="#">Painting</a></h4>
+                          					<p>Painting during the school hours to help your child learn Art.</p>
                                     </div>
                                 </div>
                             </div>
@@ -275,8 +277,8 @@
                                         <i class="fa fa-book" aria-hidden="true"></i>
                                     </div>
                                     <div class="service-text">
-                                        <h4><a href="service.html">LIBRARY</a></h4>
-                                        <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                        <h4><a href="#">LIBRARY</a></h4>
+                      		                <p>There is a Library of New and Good books for childs</p>
                                     </div>
                                 </div>
                             </div>
@@ -286,8 +288,8 @@
                                         <i class="fa fa-music" aria-hidden="true"></i>
                                     </div>
                                     <div class="service-text text-left">
-                                        <h4><a href="service.html">MUSIC LESSON</a></h4>
-                                        <p>Class aptent taciti estied aliquam ellus pers.</p>
+                                        <h4><a href="#">MUSIC LESSON</a></h4>
+                      			            <p>There are Also music class to help child learn basics of Music.</p>
                                     </div>
                                 </div>
                             </div>
@@ -307,8 +309,9 @@
                         <div class="col-md-4 col-sm-6 col-xs-10  col-md-offset-4 col-sm-offset-3 col-xs-offset-1 heading-box text-center">
                             <h3 class="theme-color marB10">Our Gallery</h3>
                             <span class=" marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
-                            <p class=" marB10">Lorem ipsum dolor sit ametconsectetuer adipiscing
-                                elit, sed diam nonummy nibh
+                            <p class=" marB10">
+                            
+                            
                             </p>
                         </div>
                     </div>
@@ -322,26 +325,22 @@
                             <div class="col-md-6 col-sm-6 col-xs-12 marB30">
                                 <div class="theme-hover">
                                     <figure>
-                                        <img src="assets/img/gallery/1.jpg" alt="">
-                                        <figcaption><a href="assets/img/fancy-box/4.jpg" class="fancybox" data-fancybox-group="group"><span class="icon arrows-expand"></span></a></figcaption>
+                                        <img src="userResources/images/Angry-Little-Baby.jpg_detected.jpg" alt="">
                                     </figure>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-12 marB30">
                                 <div class="theme-hover">
                                     <figure>
-                                        <img src="assets/img/gallery/2.jpg" alt="">
-                                        <figcaption><a href="assets/img/fancy-box/6.jpg" class="fancybox" data-fancybox-group="group"><span class="icon arrows-expand"></span></a></figcaption>
+                                        <img src="userResources/images/cry.jpg_detected.jpg" alt="">
                                     </figure>
                                 </div>
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12 marB30">
                                 <div class="theme-hover">
                                     <figure>
-                                        <img src="assets/img/gallery/3.jpg" alt="" class="hidden-xs">
-                                        <img src="assets/img/gallery/16.jpg" alt="" class="hidden-md hidden-lg hidden-sm">
-                                        <figcaption><a href="assets/img/fancy-box/3.jpg" class="fancybox" data-fancybox-group="group"><span class="icon arrows-expand"></span></a></figcaption>
-                                    </figure>
+                                        <img src="userResources/images/sixth.mp4_detected.jpg" alt="" class="hidden-xs">
+                                      </figure>
                                 </div>
                             </div>
                         </div>
@@ -351,9 +350,7 @@
                             <div class="col-md-12 col-sm-12 col-xs-12 marB30">
                                 <div class="theme-hover">
                                     <figure>
-                                        <img src="assets/img/gallery/4.jpg" alt="" class="hidden-xs">
-                                        <img src="assets/img/gallery/8.jpg" alt="" class="hidden-md hidden-lg hidden-sm">
-                                        <figcaption><a href="assets/img/fancy-box/7.jpg" class="fancybox" data-fancybox-group="group"><span class="icon arrows-expand"></span></a></figcaption>
+                                        <img src="userResources/images/Cute-Happy-Baby-Picture.jpg_detected.jpg" alt="" class="hidden-xs">
                                     </figure>
                                 </div>
                             </div>
@@ -373,8 +370,9 @@
                         <div class="col-md-4 col-sm-6 col-xs-10  col-md-offset-4 col-sm-offset-3 col-xs-offset-1 heading-box text-center">
                             <h3 class="theme-color marB10">Our Staff</h3>
                             <span class=" marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
-                            <p class=" marB10">Lorem ipsum dolor sit ametconsectetuer adipiscing
-                                elit, sed diam nonummy nibh
+                            <p class=" marB10">
+                            The Best Feeling a child can have is when there is someone 
+                            who can capture the smallest actions of him.
                             </p>
                         </div>
                     </div>
@@ -386,51 +384,33 @@
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="theme-hover marB30">
                             <figure>
-                                <img src="assets/img/teachers/1.jpg" alt="">
-                                <figcaption><a href="staff-detail.html"><span class="icon basic-link"></span></a></figcaption>
+                                <img src="userResources/images/aakash.jpg" alt="">
                             </figure>
                             <div class="staff-details text-center padT20">
-                                <h4><a href="staff-detail.html">John Doe</a></h4>
+                                <h4><a href="staff-detail.html">Aakash Jagwani</a></h4>
+                                <p class="theme-color marB10">Admin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="theme-hover marB30">
+                            <figure>
+                                <img src="userResources/images/vrinda.jpg" alt="">
+                            </figure>
+                            <div class="staff-details text-center padT20">
+                                <h4><a href="staff-detail.html">Vrinda Hotwani</a></h4>
+                                <p class="theme-color marB10">Admin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="theme-hover marB30">
+                            <figure>
+                                <img src="userResources/images/reena.jpg" alt="">
+                            </figure>
+                            <div class="staff-details text-center padT20">
+                                <h4><a href="staff-detail.html">Reena Chhablani</a></h4>
                                 <p class="theme-color marB10">Class Teacher</p>
-                                <p class="mar0">
-                                    <a href="#" class="circle"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#" class="circle"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#" class="circle"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="theme-hover marB30">
-                            <figure>
-                                <img src="assets/img/teachers/2.jpg" alt="">
-                                <figcaption><a href="staff-detail.html"><span class="icon basic-link"></span></a></figcaption>
-                            </figure>
-                            <div class="staff-details text-center padT20">
-                                <h4><a href="staff-detail.html">John Doe</a></h4>
-                                <p class="theme-color marB10">Game Teacher</p>
-                                <p class="mar0">
-                                    <a href="#" class="circle"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#" class="circle"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#" class="circle"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="theme-hover marB30">
-                            <figure>
-                                <img src="assets/img/teachers/3.jpg" alt="">
-                                <figcaption><a href="staff-detail.html"><span class="icon basic-link"></span></a></figcaption>
-                            </figure>
-                            <div class="staff-details text-center padT20">
-                                <h4><a href="staff-detail.html">John Doe</a></h4>
-                                <p class="theme-color marB10">Subject Teacher</p>
-                                <p class="mar0">
-                                    <a href="#" class="circle"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="#" class="circle"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    <a href="#" class="circle"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -448,8 +428,9 @@
                         <div class="col-md-4 col-sm-6 col-xs-10  col-md-offset-4 col-sm-offset-3 col-xs-offset-1 heading-box text-center">
                             <h3 class="theme-color marB10">Parents Feedback</h3>
                             <span class=" marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
-                            <p class=" marB10">Lorem ipsum dolor sit ametconsectetuer adipiscing
-                                elit, sed diam nonummy nibh
+                            <p class=" marB10">
+                            The Best Feeling a child can have is when there is someone 
+                            who can capture the smallest actions of him.
                             </p>
                         </div>
                     </div>
@@ -461,8 +442,7 @@
                     <div class="col-md-8 col-sm-8 col-xs-12">
                         <div class="theme-hover marB30">
                             <figure>
-                                <img src="assets/img/feedback/1.jpg" alt="">
-                                <figcaption><a href="https://www.youtube.com/embed/nlxazyvnqpY" class="fancybox-iframe various" data-fancybox-type="iframe"><span class="icon music-play-button"></span></a></figcaption>
+                                <img src="userResources/images/1.jpg" alt="">
                             </figure>
                         </div>
                     </div>
@@ -471,16 +451,14 @@
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="theme-hover marB30">
                                     <figure>
-                                        <img src="assets/img/feedback/2.jpg" alt="">
-                                        <figcaption><a href="https://www.youtube.com/embed/nlxazyvnqpY" class="fancybox-iframe various" data-fancybox-type="iframe"><span class="icon music-play-button"></span></a></figcaption>
+                                        <img src="userResources/images/2.jpg" alt="">
                                     </figure>
                                 </div>
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="theme-hover marB30">
                                     <figure>
-                                        <img src="assets/img/feedback/3.jpg" alt="">
-                                        <figcaption><a href="https://www.youtube.com/embed/nlxazyvnqpY" class="fancybox-iframe various" data-fancybox-type="iframe"><span class="icon music-play-button"></span></a></figcaption>
+                                        <img src="userResources/images/3.jpg" alt="">
                                     </figure>
                                 </div>
                             </div>
@@ -500,8 +478,9 @@
                         <div class="col-md-4 col-sm-6 col-xs-10  col-md-offset-4 col-sm-offset-3 col-xs-offset-1 heading-box text-center">
                             <h3 class="theme-color marB10">Our Blog</h3>
                             <span class=" marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
-                            <p class=" marB10">Lorem ipsum dolor sit ametconsectetuer adipiscing
-                                elit, sed diam nonummy nibh
+                            <p class=" marB10">The Best Feeling a child can have is when there is someone 
+                            who can capture the smallest actions of him.
+                            
                             </p>
                         </div>
                     </div>
@@ -513,17 +492,18 @@
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-img marB30">
                             <figure>
-                                <img src="assets/img/blog/1.jpg" alt=""/>
+                                <img src="userResources/images/aakash.jpg" alt=""/>
                             </figure>
                         </div>
                         <div class="blog-detail marB30">
-                            <h4 class="colorB marB10 title text-left"><a href="blog-single-sidebar.html">Post Title here</a></h4>
+                            <h4 class="colorB marB10 title text-left"><a href="blog-single-sidebar.html">Blog on Child Safety</a></h4>
                             <p class="marB10 text-left"> 
                                 <a href="#"><span class="marR10"><i class="fa fa-calendar marR5" aria-hidden="true"></i>May 24, 2015</span></a>
                                 <a href="#"><span class="marR10"><i class="fa fa-comment marR5" aria-hidden="true"></i>12 Comments</span></a>
                             </p>
-                            <p class="marB10 text-left">Lorem Ipsum is simply dummy text of the
-                                rinting andey typesetting industry.
+                            <p class="marB10 text-left">The Best Feeling a child can have is when there is someone 
+                            who can capture the smallest actions of him.
+                            
                             </p>
                             <p class="marB10 text-left"><a href="blog-single-sidebar.html">Read more<i class="fa fa-angle-double-right marL10" aria-hidden="true"></i></a></p>
                         </div>
@@ -533,29 +513,30 @@
                             <div id="blog-slider" class="owl-carousel owl-theme slider positionR marB30">
                                 <div class="item">
                                     <figure>
-                                        <img src="assets/img/blog/2.jpg" alt=""/>
+                                        <img src="userResources/images/aakash.jpg" alt=""/>
                                     </figure>
                                 </div>
                                 <div class="item">
                                     <figure>
-                                        <img src="assets/img/blog/1.jpg" alt=""/>
+                                        <img src="userResources/images/reena.jpg" alt=""/>
                                     </figure>
                                 </div>
                                 <div class="item">
                                     <figure>
-                                        <img src="assets/img/blog/3.jpg" alt=""/>
+                                        <img src="userResources/images/vrinda.jpg" alt=""/>
                                     </figure>
                                 </div>
                             </div>
                         </div>
                         <div class="blog-detail marB30">
-                            <h4 class="colorB marB10 title text-left"><a href="blog-single-sidebar.html">Post Title here</a></h4>
+                            <h4 class="colorB marB10 title text-left"><a href="blog-single-sidebar.html">Blog on Child Monitoring.</a></h4>
                             <p class="marB10 text-left"> 
                                 <a href="#"><span class="marR10"><i class="fa fa-calendar marR5" aria-hidden="true"></i>May 24, 2015</span></a>
                                 <a href="#"><span class="marR10"><i class="fa fa-comment marR5" aria-hidden="true"></i>12 Comments</span></a>
                             </p>
-                            <p class="marB10 text-left">Lorem Ipsum is simply dummy text of the
-                                rinting andey typesetting industry.
+                            <p class="marB10 text-left">The Best Feeling a child can have is when there is someone 
+                            who can capture the smallest actions of him.
+                            
                             </p>
                             <p class="marB10 text-left"><a href="blog-single-sidebar.html">Read more<i class="fa fa-angle-double-right marL10" aria-hidden="true"></i></a></p>
                         </div>
@@ -563,16 +544,16 @@
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="blog-img marB30">
                             <figure>
-                                <img src="assets/img/blog/3.jpg" alt=""/>
+                                <img src="userResources/images/vrinda.jpg" alt=""/>
                             </figure>
                         </div>
                         <div class="blog-detail marB30">
-                            <h4 class="colorB marB10 title text-left"><a href="blog-single-sidebar.html">Post Title here</a></h4>
+                            <h4 class="colorB marB10 title text-left"><a href="blog-single-sidebar.html">Blog on Providing Help to Working parents</a></h4>
                             <p class="marB10 text-left"> 
                                 <a href="#"><span class="marR10"><i class="fa fa-calendar marR5" aria-hidden="true"></i>May 24, 2015</span></a>
                                 <a href="#"><span class="marR10"><i class="fa fa-comment marR5" aria-hidden="true"></i>12 Comments</span></a>
                             </p>
-                            <p class="marB10 text-left">Lorem Ipsum is simply dummy text of the
+                            <p class="marB10 text-left"> The Best Feeling a child can have is when there is someone
                                 rinting andey typesetting industry.
                             </p>
                             <p><a href="blog-single-sidebar.html" class="text-left">Read more<i class="fa fa-angle-double-right marL10" aria-hidden="true"></i></a></p>
@@ -592,8 +573,7 @@
                         <div class="col-md-4 col-sm-6 col-xs-10  col-md-offset-4 col-sm-offset-3 col-xs-offset-1 heading-box text-center">
                             <h3 class="theme-color marB10">Our Parteners</h3>
                             <span class=" marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
-                            <p class=" marB10">Lorem ipsum dolor sit ametconsectetuer adipiscing
-                                elit, sed diam nonummy nibh
+                            <p class=" marB10">
                             </p>
                         </div>
                     </div>
@@ -607,56 +587,56 @@
                         <div class="col-xs-12">
                             <div class="item">
                                 <figure class="border-box">
-                                    <img src="assets/img/partner/4.png" alt="">
+                                    <img src="userResources/images/mimo.png" alt="">
                                 </figure>
                             </div>
                         </div>
                         <div class="col-xs-12">
                             <div class="item">
                                 <figure class="border-box">
-                                    <img src="assets/img/partner/5.png" alt="">
+                                    <img src="userResources/images/owlet.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
                         <div class="col-xs-12">
                             <div class="item">
                                 <figure class="border-box">
-                                    <img src="assets/img/partner/6.png" alt="">
+                                    <img src="userResources/images/nanit.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
                         <div class="col-xs-12">
                             <div class="item">
                                 <figure class="border-box">
-                                    <img src="assets/img/partner/7.png" alt="">
+                                    <img src="userResources/images/monbaby.png" alt="">
                                 </figure>
                             </div>
                         </div>
                         <div class="col-xs-12">
                             <div class="item">
                                 <figure class="border-box">
-                                    <img src="assets/img/partner/8.png" alt="">
+                                    <img src="userResources/images/mimo.png" alt="">
                                 </figure>
                             </div>
                         </div>
                         <div class="col-xs-12">
                             <div class="item">
                                 <figure class="border-box">
-                                    <img src="assets/img/partner/6.png" alt="">
+                                    <img src="userResources/images/owlet.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
                         <div class="col-xs-12">
                             <div class="item">
                                 <figure class="border-box">
-                                    <img src="assets/img/partner/7.png" alt="">
+                                    <img src="userResources/images/nanit.jpg" alt="">
                                 </figure>
                             </div>
                         </div>
                         <div class="col-xs-12">
                             <div class="item">
                                 <figure class="border-box"> 
-                                    <img src="assets/img/partner/8.png" alt="">
+                                    <img src="userResources/images/monbaby.png" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -664,8 +644,8 @@
                 </div>
             </div>
         </section>
-        <!--//================partener starts==============//-->
         <div class="clear"></div>
+
         <!--//================contact us starts==============//-->
 		<jsp:include page="chotaContact.jsp"></jsp:include>
         <!--//================contact us end==============//-->

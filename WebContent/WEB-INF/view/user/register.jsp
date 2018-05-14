@@ -26,7 +26,41 @@
     <body>
     <%@taglib prefix="f" uri="http://www.springframework.org/tags/form" %>
     
-        <jsp:include page="header.jsp"></jsp:include>
+
+
+		<div class="preloader">
+            <div class="thecube">
+                <div class="cube c1"></div>
+                <div class="cube c2"></div>
+                <div class="cube c4"></div>
+                <div class="cube c3"></div>
+                <h4>Loading</h4>
+            </div>
+        </div>
+
+        <header>
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>aakashjagwani09@gmail.com</a></li>
+                                <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>8758137760</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 text-right small-left">
+                            <ul>
+                                <li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
+                                <li><a href="register.html"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+                                <!-- <li><a href="#" class="cart-box"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </header>	
+
         <div class="clear"></div>
         <!--//================Breadcrumb starts==============//-->
         <section>
@@ -95,7 +129,6 @@
         
         <div class="clear"></div>
 
-        <jsp:include page="footer.jsp"></jsp:include>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="userResources/js/jquery.min.js"></script>
         <script src="userResources/js/bootstrap.min.js"></script>

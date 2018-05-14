@@ -39,7 +39,7 @@
 					<div class="col-md-12">
 						<section class="boxs">
 							<div class="boxs-body">
-								<f:form class="form-horizontal" action="newCase.html" modelAttribute="data" method="GET">
+								<f:form class="form-horizontal" action="newCase.html" modelAttribute="data" method="POST" enctype="multipart/form-data" >
 									<div class="form-group">
 										<label class="col-sm-3 control-label">Case Title</label>
 										<div class="col-sm-9">
@@ -55,16 +55,9 @@
 									</div>
 									<hr class="line-dashed full-witdh-line" />
 									<div class="form-group">
-										<label class="col-sm-3 control-label">File Name</label>
-										<div class="col-sm-9">
-											<f:input type="text" class="form-control" path="fileName" placeholder="Enter file name" data-parsley-trigger="change" required="required"/>
-										</div>
-									</div>
-									<hr class="line-dashed full-witdh-line" />
-									<div class="form-group">
-										<label class="col-sm-3 control-label">File Path</label>
-										<div class="col-sm-9">
-											<f:input type="text" class="form-control" placeholder="File Path" path="filePath" data-parsley-trigger="change" required="required"/>
+										<label class="col-sm-3 control-label">File </label>
+										<div class="btn btn-raised " >
+											Select File <input type="file" class="btn btn-raised btn-default" placeholder="File Name" name="file" data-parsley-trigger="change" required="required"/>
 										</div>
 									</div>
 									<div class="boxs-footer text-right bg-tr-black lter dvd dvd-top">

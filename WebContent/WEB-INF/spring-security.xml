@@ -13,7 +13,7 @@
 	<intercept-url pattern="/user**" access="hasRole('ROLE_USER')" />
 	<intercept-url pattern="/admin**" access="hasRole('ROLE_ADMIN')" />
 	
-	<intercept-url pattern="/loadReg.html" access="permitAll" />
+	<intercept-url pattern="/register.html" access="permitAll" />
 	
 	<form-login 
 

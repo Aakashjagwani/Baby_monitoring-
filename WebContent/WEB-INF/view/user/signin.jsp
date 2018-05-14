@@ -17,17 +17,47 @@
         <link rel="shortcut icon" href="userResources/images/favicon.ico" type="image/x-icon">
         <link rel="icon" href="userResources/images/favicon.ico" type="image/x-icon">
         <!-- Master Css -->
-        <link href="main.css" rel="stylesheet">
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <link href="userResources/css/main.css" rel="stylesheet">
+        
     </head>
     <body>
         <!--//================Header start==============//-->  
-        <jsp:include page="header.jsp"></jsp:include>
+
+		
+		<div class="preloader">
+            <div class="thecube">
+                <div class="cube c1"></div>
+                <div class="cube c2"></div>
+                <div class="cube c4"></div>
+                <div class="cube c3"></div>
+                <h4>Loading</h4>
+            </div>
+        </div>
+
+        <header>
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>aakashjagwani09@gmail.com</a></li>
+                                <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>8758137760</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 text-right small-left">
+                            <ul>
+                                <li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
+                                <li><a href="register.html"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+                                <!-- <li><a href="#" class="cart-box"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>	
+
+
+
         <div class="clear"></div>
         <!--//================Breadcrumb starts==============//-->
         <section>
@@ -36,7 +66,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="theme-heading text-center">
-                                <h3 class="text-center theme-color">Register</h3>
+                                <h3 class="text-center theme-color">Sign in</h3>
                                 <span class="colorW marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
                             </div>
                             <div class="breadcrumb-box">
@@ -44,7 +74,7 @@
                                     <li>
                                         <a href="index.html">Home</a>
                                     </li>
-                                    <li class="active">Register</li>
+                                    <li class="active">Sign in</li>
                                 </ul>
                             </div>
                         </div>
@@ -58,29 +88,31 @@
         <section class="padT80 padB50">
             <div class="container">
                 <div class="row">
+                	<form action = "spring_verify" method="post">
                     <div class="col-md-6 col-sm-8 col-xs-12 col-md-offset-3 col-sm-offset-2 col-xs-offset-0">
                         <div class="col-md-12 col-sm-12 col-xs-12">
-                            <h4 class="marB30 title">Sign---in</h4>
+                            <h4 class="marB30 title">Sign In</h4>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12 marB30">
-                            <input type="text" placeholder="Email Address">
+                            <input type="text" name="username"  placeholder="Email Address"/>
                         </div>
                         <div class="col-md-12 col-sm-12 col-xs-12 marB30">
-                            <input type="text" placeholder="Password">
+                            <input type="password" name="password" placeholder="Password"/>
                         </div>
                         <div class="col-md-12 col-sm-12 col-xs-12 marB30">
-                            <button type="submit" class="itg-button">Signin</button>
+                            <button type="submit" class="itg-button">Login</button>
                         </div>
                     </div>
+                    </form>
                 </div>
             </div>
         </section>
+        <!--//================Register end==============//-->
         <div class="clear"></div>
         <!--//================contact us starts==============//-->
 		<jsp:include page="chotaContact.jsp"></jsp:include>
         <!--//================contact us end==============//-->
         <div class="clear"></div>
-        <jsp:include page="footer.jsp"></jsp:include>	
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="userResources/js/jquery.min.js"></script>
         <script src="userResources/js/bootstrap.min.js"></script>

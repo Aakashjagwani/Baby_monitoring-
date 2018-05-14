@@ -6,8 +6,8 @@
                         <div class="col-md-4 col-sm-6 col-xs-10  col-md-offset-4 col-sm-offset-3 col-xs-offset-1 heading-box text-center">
                             <h3 class="theme-color marB10">Address and details</h3>
                             <span class="marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
-                            <p class="marB10">Lorem ipsum dolor sit ametconsectetuer adipiscing
-                                elit, sed diam nonummy nibh
+                            <p class="marB10">The Best Feeling a child can have is when there is someone 
+                            who can capture the smallest actions of him. 
                             </p>
                         </div>
                     </div>
@@ -18,16 +18,14 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-5 col-xs-12">
                         <div class="address-details marB30">
-                            <p class="text-left marB20">Lorem Ipsum. Proin gravida nibh vel velit auctor
-                                aliquet. Aenean sollicitudin,ipsum, nec sagittis sem
-                                nibh id elit. Duis sed odio sit amet nibh vulputate
-                                cursus a sit amet mauris.
+                            <p class="text-left marB20">Baby Monitoring System is a project in which user can monitor their babies through the camera or video.
+                             The User can get alert through mail if their baby has fallen somewhere or if it is crying or is angry.
                             </p>
-                            <p class="text-left marB20"><i class="fa fa-map-marker" aria-hidden="true"></i><span class="pull-right">12, Civil Line dewas (M.P.) 455001</span></p>
-                            <p class="text-left marb20"><i class="fa fa-envelope" aria-hidden="true"></i><span class="pull-right">hello@gamil.com</span></p>
-                            <p class="text-left marB20"><i class="fa fa-phone" aria-hidden="true"></i><span class="pull-right">3333 222 1111</span></p>
-                            <p class="text-left marB20"><i class="fa fa-phone" aria-hidden="true"></i><span class="pull-right">Skype : itgeeks</span></p>
-                            <p class="text-left marB20"><i class="fa fa-phone" aria-hidden="true"></i><span class="pull-right">Www.itgeeksin.Com</span></p>
+                            <p class="text-left marB20"><i class="fa fa-map-marker" aria-hidden="true"></i><span class="pull-right">241 Maharathi Society Sardarnagar - Ahmedabad Gujarat India 382475</span></p>
+                            <p class="text-left marb20"><i class="fa fa-envelope" aria-hidden="true"></i><span class="pull-right">aakashjagwani09@gamil.com</span></p>
+                            <p class="text-left marB20"><i class="fa fa-phone" aria-hidden="true"></i><span class="pull-right">8758 137 760</span></p>
+                            <p class="text-left marB20"><i class="fa fa-phone" aria-hidden="true"></i><span class="pull-right">Skype : toogood2013</span></p>
+                            <p class="text-left marB20"><i class="fa fa-phone" aria-hidden="true"></i><span class="pull-right">Www.babymonitoringsystem.Com</span></p>
                             <p class="text-left mar0">
                                 <a href="#" class="square-box"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
                                 <a href="#" class="square-box"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
@@ -49,8 +47,8 @@
                                 <div class="col-md-4 col-sm-6 col-xs-10  col-md-offset-4 col-sm-offset-3 col-xs-offset-1 heading-box text-center">
                                     <h3 class="theme-color marB10">Send your query</h3>
                                     <span class="marB10"> <i class="fa fa-child" aria-hidden="true"></i> </span>
-                                    <p class="marB10">Lorem ipsum dolor sit ametconsectetuer adipiscing
-                                        elit, sed diam nonummy nibh
+                                    <p class="marB10">The Best Feeling a child can have is when there is someone 
+                            who can capture the smallest actions of him.
                                     </p>
                                 </div>
                             </div>
